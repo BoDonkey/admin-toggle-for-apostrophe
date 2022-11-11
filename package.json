@@ -1,0 +1,19 @@
+{
+  "name": "admin-toggle-for-apostrophe",
+  "version": "1.0.0",
+  "description": "Adds an adminBar toggle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoDonkey/admin-toggle-for-apostrophe.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoDonkey/admin-toggle-for-apostrophe/issues"
+  },
+  "homepage": "https://github.com/BoDonkey/admin-toggle-for-apostrophe#readme"
+}
