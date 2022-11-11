@@ -1,0 +1,13 @@
+{% if (data.user and data.user.role !== 'guest') %}
+<span class="ta-button">
+  <i class="fa fa-plus myfloat"></i>
+</span>
+<script>
+  const toggle = document.querySelector('.ta-button');
+  toggle.addEventListener('click', function () {
+    const adminBar = document.querySelector('.apos-admin-bar-wrapper');
+     adminBar.style.display =
+            adminBar.style.display === 'none' ? 'block' : 'none';
+  })
+</script>
+{% endif %}
