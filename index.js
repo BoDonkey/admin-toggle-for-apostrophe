@@ -3,7 +3,7 @@ module.exports = {
     return {
       'apostrophe:ready': {
         addToggle() {
-          self.apos.template.append('body', 'admin-toggle:toggle');
+          self.apos.template.append('body', 'admin-toggle-for-apostrophe:toggle');
         }
       }
     };
