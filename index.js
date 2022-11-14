@@ -1,12 +1,10 @@
 module.exports = {
-  handlers(self) {
-    return {
-      'apostrophe:ready': {
-        addToggle() {
-          self.apos.template.append('body', 'admin-toggle-for-apostrophe:toggle');
-        }
-      }
-    };
+  options: {
+    components: {}
+  },
+  init(self) {
+    self.enableBrowserData();
+    self.apos.template.append('body', 'admin-toggle-for-apostrophe:toggle');
   },
   components(self) {
     return {
@@ -15,6 +13,15 @@ module.exports = {
           return null;
         }
       }
-    };
+    }
+  },
+  methods(self) {
+    return {
+      getBrowserData(req) {
+        return {
+          components: 'TheAdminToggle'
+        }
+      }
+    }
   }
 };
