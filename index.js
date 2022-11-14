@@ -4,14 +4,11 @@ module.exports = {
   },
   init(self) {
     self.enableBrowserData();
-    self.apos.template.append('body', 'admin-toggle-for-apostrophe:toggle');
+    self.apos.template.append('main', 'admin-toggle-for-apostrophe:toggle');
   },
   components(self) {
     return {
-      async toggle(req, data) {
-        if (req.user === undefined) {
-          return null;
-        }
+      async toggle(req, data) {}
       }
     }
   },
