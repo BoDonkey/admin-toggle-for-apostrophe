@@ -1,4 +1,7 @@
 # admin-toggle-for-apostrophe
+
+![toggle](https://user-images.githubusercontent.com/13168224/202276500-8aff4e6e-abb3-4a3f-826b-896cc313adc6.gif)
+
 This extension allows toggle of the visibility of the ApostropheCMS adminBar for use with templates with fixed headers.
 
 ## Usage:
